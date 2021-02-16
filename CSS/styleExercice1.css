@@ -1,0 +1,133 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 980px;
+  margin: 0 auto; /* -------- affichage au centre du navigateur-------*/
+}
+
+ul {
+  /* Supprimer les marges */
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  /* Supprimer le cercle noir en haut de la liste */
+  list-style: none;
+}
+/* la barre d'entete*/
+.header {
+background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+/* logo DIVE */
+.logo_image {
+  width: 110px;
+  float: left;
+  margin: 0;
+}
+/* dispose le menu à l'extreme gauche */
+.top_menu li {
+  float: right;
+  padding: 15px 18px;
+  text-align: center;
+}
+
+#texte{
+  color: AAAE;
+  background: url(../images/TOP.png);
+  height: 150px;
+  background-size: cover;
+}
+
+
+/* menu à gaucge */
+.side_menu{
+  padding-top:  50px;
+  width: 300px;
+  float: left;
+}
+
+
+/* Addendum */
+.content{
+  width: 660px;
+  margin-left:20px;
+  float: left;
+  font-size: 1.5rem;
+}
+h1{
+
+  text-align: center;
+
+}
+
+/* lien pour les menus qui sont en haut*/
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.top_menu li a:hover {
+  text-decoration: none;
+}
+
+.image_area{
+  width: 100%;
+}
+
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+#madiv2{
+  padding: 10px;
+  float: right;
+}
+#madiv2 input{
+  width: 480;
+  height: 10px
+}
+
+#madiv2 label{
+  display: inline-block;
+  width: 150px;
+  padding: 10px ;
+}
+p{
+  font-size: 1.5em;
+  color:#000;
+
+}
+
+
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 18px;
+}
+
+.footer{
+
+   width: 980px;
+   height: 60px;
+   position: absolute;
+   bottom: 0;
+   background-color: #4D4D4D;
+   display: table;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
