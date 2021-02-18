@@ -59,7 +59,8 @@ background-color: #F5B4B3;
   height: 100px;
   background-size: cover;
   margin-right: auto;
-  width: 980px;
+ width: 100%;
+  margin-right: 25px;
   margin-left: 15px;
   padding-left: 10px;
 }
@@ -79,6 +80,10 @@ h1{
 }*/
 
 .side_menu{
+  display: inline-block;
+}
+
+#section1{
   padding-top:  10px; /* laisse un espace entre
   l'image principale et le menu de gauche*/
   width: 300px;
@@ -86,7 +91,7 @@ h1{
   margin-left: 15px;
 }
 
-.side_menu li{
+.section1 li{
   background-color: #F5B4B3;
   height: 6rem;
   margin-bottom: 5px;
@@ -98,35 +103,74 @@ h1{
 }
 
 #section2 {
-  position: absolute;
-  top: 250px;
-  left: 600px;
+  float: right;
+  
 
-  td {
+/*  td {
   				/ * Pour s'assurer que toutes les étiquettes ont la
            même taille et sont correctement alignées
   				affichage : bloc en ligne;*/
-  				width: 200px ;
+  				width: 500px ;
   				text-align : droite;
 
+}*/
 
-}
-
-#section2 input{
+/*#section2 input{
   float: right;
-    padding-left : 10px;
+
     margin-left:  0,5 em ;
     overflow: hidden;
  / * même taille que les
-  éléments d'étiquette * /
-}
+  elements d'etiquette * /
+}*/
+
 #test{
   width: 150px;
 
 }
+/*
+.monBouton{
+  background: #0066A2;
+
+color: white;
+
+border-style: outset;
+
+border-color: #0066A2;
+
+height: 50px;
+
+width: 100px;
+
+font: bold 15px arial, sans-serif;
+
+text-shadow:none;
+
+}*/
+
+/*
+.monBouton{
+  display: left
+  position: absolute;
+  left: 400px;
+  top: 600px;
+
+  background: #016ABC;
+
+color: #fff;
+
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
+
+text-shadow:none;
+}*/
 
 
 }
+
 p{
   text-align: center;
   vertical-align: middle;
@@ -135,17 +179,13 @@ p{
 
 }
 
-.side_menu{
-
-  display: inline-block;
-}
 
 
-.side_menu li a{
+
+#section1 li a{
   font-size:2rem;
   color: #fff;
   text-decoration: none;
-  display: block;
   padding: 10px;
   text-align: left;
 }
